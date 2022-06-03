@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
-}
+.userlog{background-image: url(../src/images/14071.gif);background-size: 100%;background-repeat: no-repeat;background-color: aqua;height: 100vh;margin: 0;padding: 0;display: flex;flex-direction: column;justify-content: flex-start;}
+#h11{ background-color: white;}
+#h11 h1{ margin: 0; font-family: 'Bebas Neue', cursive;}
+#h12{margin-top: 5vh;}
+#h12 input{border-color: red;height: 50px;text-align: center;border-radius: 20px;font-size: medium;}
+#h12 button{color: rgb(255, 255, 255);padding: 20px;border-radius: 20px ;background-color: red;font-weight: 200;box-shadow: 0px 0px 10px red;border-color: red;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+#contenedor-pokedex{background-color: rgb(255, 255, 255);top: 0;margin: 0;background-image: url(../src/images/pokeba.gif);background-repeat: no-repeat;background-position: 100px -70px ;}
+#h111{ display: flex;justify-content: center; align-items: center; margin-bottom: 400px;}
+#h111 h1{margin-top: 0;font-family: 'Bebas Neue', cursive;background-color: rgb(255, 255, 255);}
+#pokebol{width: 50px; margin-top: -9px;margin-left: 10px;}
+#contenedor-pokedex input{margin: 0px 20px; border-color: red;height: 50px;text-align: center;border-radius: 20px;font-size: medium;}
+#search{display: flex; justify-content: center;}
+#search select{font-family: 'Bebas Neue', cursive;color: rgb(255, 255, 255);padding: 20px;border-radius: 20px ;background-color: red;font-weight: 200;box-shadow: 0px 0px 10px red;border-color: red;}
+#search button{color: rgb(255, 255, 255);padding: 20px;border-radius: 20px ;background-color: red;font-weight: 200;box-shadow: 0px 0px 10px red;border-color: red;}
+#search option{font-family: 'Bebas Neue', cursive;}
+
+.cardd{background-color:rgb(163, 16, 16);margin: 2rem;width: 250px;height: fit-content;border-radius: 20px 20px 200px 200px;text-align: center;}
+#namepoke{font-family: 'Bebas Neue', cursive;color: rgb(255, 255, 255);}
+
+
+
+
+
+
+#namepokeid{    margin: 0;font-family: 'Bebas Neue', cursive;color: rgb(255, 0, 0);text-align: center;}
+#content-id{font-size: large;}
+#img-pokeid{display: flex;justify-content: center;}
+#img-cute{display: flex;justify-content: center;}
+.minimg{width: 18vh; background-color: rgb(204, 206, 207); margin: 0px 15px;border-radius: 20px;}
+h4{ margin: 0; text-align: center;}
+.icon{width: 30px; margin-bottom: 10px; justify-content: center;}
+#stats{margin: 0; margin-bottom: 10px; font-size: 28.2px; }
+#content-icon{ display: flex;flex-direction: column;align-items: center;}
+#doble{display: flex; margin-bottom: 10px;}
+#doble img{margin-right: 0;}
+#wei{ font-family: 'Bebas Neue', cursive;color: rgb(255, 0, 0);text-align: center;
+
+}
+#wei h4{margin-bottom: 15vh;}
+#img-pokeid button{ height: 50px; color: rgb(255, 255, 255);padding: 20px;border-radius: 20px ;background-color: red;font-weight: 200px;box-shadow: 0px 0px 10px red;border-color: red;}
+
+
+
+
+
+
+#veapues{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list{
+  width: 100px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.cardd img{
+  width: 250px;
+  border-radius: 15rem;
+  background-color: white;
+  box-shadow: inset 0px 0px 100px red;
+}
+#fff{
+  
+  display: flex;
+  
+  flex-wrap: wrap;
+  height: fit-content;
 }
