@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { changeuser } from '../store/slices/User.slice';
 import { useDispatch } from 'react-redux';
-import charizard from "../images/charizard.gif"
 
 const Userlogin = () => {
     const navigate = useNavigate();

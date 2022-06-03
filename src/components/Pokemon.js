@@ -10,7 +10,7 @@ const Pokemon = ({urlapi}) => {
         axios.get(urlapi)
         .then(res => setcharacter(res.data))
 
-    },[])
+    },[urlapi])
    
    
     
