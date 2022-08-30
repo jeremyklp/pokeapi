@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { changeuser } from '../store/slices/User.slice';
 import { useDispatch } from 'react-redux';
+import UserloginImage from '../images/fondoUser.jpg'
 
 const Userlogin = () => {
     const navigate = useNavigate();
@@ -21,7 +22,9 @@ const Userlogin = () => {
     
     return (
         <div className='userlog'>
-           <div id='h11'><h1>Bienvenido entrenador pokemon </h1></div>
+           <div id='h11'>
+                <img src={UserloginImage}  alt="" />
+                <h1>Bienvenido entrenador pokemon </h1></div>
            <div id='h12'><input placeholder='Nombre de entrenador' type="texr" value={username} onChange={e => setusername(e.target.value)}/>
             <button onClick={getname}>Comienza!</button></div> 
             
